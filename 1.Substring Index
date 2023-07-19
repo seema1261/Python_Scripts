@@ -1,0 +1,5 @@
+#code to return the string present in another string
+
+class Solution:
+    def strStr(self, haystack: str, needle: str) -> int:
+        return haystack.find(needle)
